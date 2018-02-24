@@ -1,0 +1,16 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "globals": {
+    "document": true,
+    "fetch": true,
+    "window": true,
+    "sessionStorage": true,
+    "releasestage": true,
+    "require": true,
+    "localStorage": true
+  },
+  "rules": {
+    "react/prop-types": "off"
+  }
+}
