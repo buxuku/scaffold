@@ -94,14 +94,12 @@ module.exports = function () {
         
         "babel-polyfill",
         "es6-promise",
-        "jsbarcode",
         "rc-queue-anim",
         "rc-tween-one",
         "react",
         "react-dom",
         "react-router-dom",
         "whatwg-fetch",
-        "wangeditor"
       ]
     },
     output: {

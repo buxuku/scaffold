@@ -4,7 +4,10 @@
   "description": "gaia raact project scaffold",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cross-env NODE_ENV=test webpack-dev-server --port 3011",
+    "build": "cross-env NODE_ENV=pro webpack",
+    "rel": "cross-env NODE_ENV=rel webpack",
+    "start": "cross-env NODE_ENV=dev webpack-dev-server --port 3010 --hot"
   },
   "repository": {
     "type": "git",

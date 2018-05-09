@@ -1,0 +1,133 @@
+@import url('less/variables.less');
+@import url('less/reset.less');
+@import url('less/icon.less');
+@import url('less/table.less');
+@import url('less/print.less');
+
+.ant-layout-content {
+  position: relative;
+}
+
+.g-search-panel {
+  margin-top: 24px;
+  width: 400px;
+}
+
+.g-title {
+  color: #061c3f;
+  font-size: 20px;
+  span {
+    font-size: 12px;
+  }
+  > span{
+    margin-left: 12px;
+  }
+  span.g-title-label{
+    color: #A0A9B6;
+  }
+}
+
+.g-actions-link {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  button {
+    margin-left: 16px;
+  }
+}
+
+.@{g-prefix}-button-link {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  color: #0e77ca;
+  &:hover {
+    color: #49a9ee;
+  }
+  cursor: pointer;
+  outline: none;
+}
+
+.g-info-item {
+  & > div {
+    margin-bottom: 24px;
+  }
+  color: #061C3F;
+  span {
+    color:#A0A9B6;
+    min-width: 70px;
+    display: inline-block;
+  }
+}
+
+.g-status {
+  color: #5395e9;
+  font-size: 24px;
+  margin-top: 32px;
+  i {
+    font-size: 16px;
+    margin-right: 8px;
+  }
+}
+
+.g-flex-form {
+  .ant-form-item {
+    display: flex;
+  }
+}
+.g-express-form {
+  .ant-form-item-label {
+    width: 82px;
+  }
+}
+.g-list-header {
+  border: 1px solid #d9d9d9;
+  border-bottom: 0;
+  background: rgba(244, 246, 249, 1);
+  height: 56px;
+  line-height: 56px;
+}
+.g-action-icon {
+  i:before {
+    margin-right: 12px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}
+.g-card-highlight {
+  box-shadow: 0px 12px 24px 0px rgba(83, 149, 233, 0.24),
+    0px 2px 4px 0px rgba(83, 149, 233, 0.12);
+  border-radius: 2px;
+}
+
+.header i {
+  vertical-align: middle;
+  &::before {
+    margin-right: 16px;
+    color: #d8dde6;
+    font-size: 24px;
+  }
+}
+.g-notice {
+  &::before{
+    font-size: 24px;
+    color: rgba(83,149,233,.4);;
+    margin-right: 16px;
+  }
+}
+.g-one-line{
+  white-space: nowrap;  
+  overflow: hidden;   
+  text-overflow:ellipsis;  
+}
+.g-add-spec{
+  color: #061C3F;
+  i{
+    vertical-align: middle;
+    &::before{
+      margin-right: 8px;
+      color: #A8B7C7;
+      font-size: 24px;
+    }
+  }
+}

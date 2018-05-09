@@ -1,0 +1,29 @@
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  body #section-to-print {
+    overflow: visible;
+  }
+  #section-to-print,
+  #section-to-print * {
+    visibility: visible;
+  }
+  #section-to-print {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  table {
+    width: 100% !important;
+  }
+  .section-not-to-print {
+    display: none;
+  }
+  .ant-table-thead > tr > th {
+    border: 1px solid #000;
+    border-left: 0;
+    border-right: 0;
+    font-weight: bold;
+  }
+}
